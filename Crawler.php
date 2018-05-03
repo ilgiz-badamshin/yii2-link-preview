@@ -5,8 +5,8 @@ namespace yii2mod\linkpreview;
 use Embed\Adapters\Adapter;
 use Embed\Embed;
 use Embed\Exceptions\InvalidUrlException;
+use yii\base\BaseObject;
 use yii\base\InvalidConfigException;
-use yii\base\Object;
 use yii\helpers\ArrayHelper;
 
 /**
@@ -14,7 +14,7 @@ use yii\helpers\ArrayHelper;
  *
  * @package yii2mod\linkpreview
  */
-class Crawler extends Object
+class Crawler extends BaseObject
 {
     /**
      * @var string content given from the widget
